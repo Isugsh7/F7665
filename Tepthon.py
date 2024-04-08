@@ -76,17 +76,17 @@ async def _(event):
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("ALsiD - جاري الفحص....")
+    await event.edit(" - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**ALSiD - تشيكر السيد
-☆ VERSION : 3.3
+[Welcome to Source ADNAN]
+☆ VERSION : 4.0
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ ALSiD : @syntral**
-☆ Developer : @s_i_d
+☆ Source ADNAN : @PP6ZZ @r6r6rr
+
 
 -قـم بإرسال `.الاوامر`
 ''')
@@ -121,7 +121,7 @@ ownerhson_id = 1041483862
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك سيد ابشر  @syntral')
+        order = await event.reply(' عدنان يمك  لاتخاف @PP6ZZ')
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -389,18 +389,19 @@ async def spammer(event):
     
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل السيد يعمل بنجاح @syntral
+      await event.reply("""السـورس قيد التفعيل 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
-- سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها 
-- للدخول لسوبر المطور تفضل - @wwwllw .
+- سورس  تشكير يوزرات  
+- المطور 
+ @PP6ZZ .
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""سنترال : @s_i_d"""
+      await event.reply("""3DNAN : @PP6ZZ"""
 )
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
